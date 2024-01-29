@@ -2,6 +2,12 @@
 
 #header{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  padding: 1rem;
+  background-color: #e5e5e5;
+}
+
+#header > .status, .introduce, .sites {
+  display: flex;
 }

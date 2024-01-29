@@ -10,8 +10,19 @@ const Status: React.FC<StatusProps> = ({ employ }) => {
   const statusColor = employ ? "#4caf50" : "#f44336";
 
   return (
-    <div className="employ-status" style={{ backgroundColor: statusColor, color: "#ffffff", fontWeight:"bold", fontSize: "25px", borderRadius: "4px" }}>
-      {statusText}
+    <div className="status">
+      <div
+        className="employ-status"
+        style={{
+          backgroundColor: statusColor,
+          color: "#ffffff",
+          fontWeight: "bold",
+          fontSize: "25px",
+          borderRadius: "4px",
+        }}
+      >
+        {statusText}
+      </div>
     </div>
   );
 };
