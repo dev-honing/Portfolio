@@ -1,13 +1,15 @@
 // src/Pages/Footer/FooterPage.tsx
 
-import Stacks from './Stack/Stacks';
-import Versions from './Version/Versions';
+import Stacks from "./Stack/Stacks";
+import Versions from "./Version/Versions";
 
 const Footer: React.FC = () => {
-  return (<div id="footer">
-    <Stacks />
-    <Versions />
-  </div>)
-}
+  return (
+    <div id="footer">
+      <Stacks />
+      <Versions />
+    </div>
+  );
+};
 
 export default Footer;
