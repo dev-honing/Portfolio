@@ -1,4 +1,4 @@
-// src/Pages/Container/ContainerPage.tsx
+// src/Pages/Container/Container.tsx
 import Growth from "./Growth/Growth";
 
 const Container: React.FC = () => {
