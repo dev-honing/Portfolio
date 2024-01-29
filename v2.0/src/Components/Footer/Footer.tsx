@@ -1,7 +1,6 @@
-// src/Pages/Footer/FooterPage.tsx
-
-import Stacks from "./Stack/Stacks";
-import Versions from "./Version/Versions";
+// src/Pages/Footer/Footer.tsx
+import Stacks from './Stack/Stacks';
+import Versions from './Version/Versions';
 
 const Footer: React.FC = () => {
   return (

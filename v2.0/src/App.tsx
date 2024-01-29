@@ -1,10 +1,10 @@
 // src/App.tsx
-import Header from "./Pages/Header/HeaderPage";
-import Container from "./Pages/Container/ContainerPage";
-import Footer from "./Pages/Footer/FooterPage";
-import Comments from "./Comment/Comments";
+import Header from "./Components/Header/Header";
+import Container from './Components/Container/Container';
+import Footer from "./Components/Footer/Footer"
+import Comments from "./Components/Comment/Comments";
 
-function App() {
+const App: React.FC = () => {
   return (
     <div id="CRA">
       <Header />
@@ -14,5 +14,5 @@ function App() {
     </div>
   );
 }
-
+  
 export default App;
