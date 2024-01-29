@@ -7,9 +7,8 @@
 | Refactor:  | 리팩토링                   |
 | Modify:    | 기능 수정                  |
 | Fix:       | 오타 수정                  |
-| Move:      | 파일/폴더 구성 이동         |
 | Remove:    | 코드 삭제                  |
-| Delete:    | 파일/폴더 삭제             |
+| File:      | 파일/폴더 관리             |
 | Package:   | 패키지 관리                |
 | Docs:      | Markdown 문서 작업         |
 | Reset:     | 초기화                     |
