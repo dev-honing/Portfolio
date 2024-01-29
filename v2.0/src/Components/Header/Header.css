@@ -1,0 +1,7 @@
+/* src/Components/Header/Header.css */
+
+#header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

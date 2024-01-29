@@ -1,6 +1,5 @@
 // src/Pages/Header/Status/Status.tsx
 import React from "react";
-import "./Status.css";
 
 interface StatusProps {
   employ: boolean;
@@ -8,10 +7,10 @@ interface StatusProps {
 
 const Status: React.FC<StatusProps> = ({ employ }) => {
   const statusText = employ ? "구직 중" : "구직 완료";
-  const statusColor = employ ? "green" : "red";
+  const statusColor = employ ? "#4caf50" : "#f44336";
 
   return (
-    <div className="status-box" style={{ backgroundColor: statusColor }}>
+    <div className="employ-status" style={{ backgroundColor: statusColor, color: "#ffffff", fontWeight:"bold", fontSize: "25px", borderRadius: "4px" }}>
       {statusText}
     </div>
   );
