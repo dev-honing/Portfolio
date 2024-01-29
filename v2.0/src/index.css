@@ -1,0 +1,28 @@
+/* src/index.css */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#CRA {
+  width: 100vw;
+  height: 100vh;
+}
+
+#header {
+  height: 10vh;
+}
+
+#container {
+  height: 80vh;
+}
+
+#footer {
+  height: 10vh;
+}
+
+#comments {
+  overflow-y: scroll;
+}
