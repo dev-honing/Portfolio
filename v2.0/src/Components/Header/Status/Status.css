@@ -1,9 +1,9 @@
 /* src/Pages/Header/Status/Status.css */
 
-/* 구직 상태에 따른 색상 */
-.status {
-  font-size: 16px;
-  padding: 8px;
+/* 구직 상태를 표현하는 상자 */
+.status-box {
+  width: 20px;
+  height: 20px;
   border-radius: 4px;
 }
 

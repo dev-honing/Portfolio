@@ -8,9 +8,13 @@ interface StatusProps {
 
 const Status: React.FC<StatusProps> = ({ employ }) => {
   const statusText = employ ? "구직 중" : "구직 완료";
-  const statusClass = employ ? "green" : "red";
+  const statusColor = employ ? "green" : "red";
 
-  return <div className={`status ${statusClass}`}>{statusText}</div>;
+  return (
+    <div className="status-box" style={{ backgroundColor: statusColor }}>
+      {statusText}
+    </div>
+  );
 };
 
 export default Status;
