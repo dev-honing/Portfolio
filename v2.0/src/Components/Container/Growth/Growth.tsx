@@ -1,11 +1,19 @@
 // src/Pages/Container/Growth/Growth.tsx
+import { GrowthProps } from "../../Interfaces/Interfaces";
+import "./Growth.css";
 
-import "./Growth.css"
-
-const Growth: React.FC = () => {
+const Growth: React.FC<GrowthProps> = ({ growthLogs }) => {
   return (
     <div className="growth active">
-      <h2>주차별 성장 로그</h2>
+      <ul>
+        <h2>주차별 학습 로그</h2>
+        {growthLogs.map((log, index) => (
+          <li key={index}>
+            {/* 주차별 학습 로그 */}
+            <span>{log.week}</span>: {log.log}
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };
