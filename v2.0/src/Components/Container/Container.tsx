@@ -2,6 +2,8 @@
 import React, { useState } from "react";
 import Growth from "./Growth/Growth";
 
+import "./Container.css"
+
 const Container: React.FC = () => {
   // 팝업의 활성화 상태를 나타내는 변수
   const [isPopupVisible, setPopupVisible] = useState(false);

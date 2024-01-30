@@ -17,6 +17,9 @@
 
 #container {
   height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #footer {
@@ -25,4 +28,9 @@
 
 #comments {
   overflow-y: scroll;
+}
+
+button {
+  width: 7rem;
+  height: 3rem;
 }
