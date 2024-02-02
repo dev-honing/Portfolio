@@ -1,0 +1,12 @@
+/* src/Components/Footer/Stack/Stacks.css */
+
+.stacks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #999;
+}
+
+a {
+  margin: 1rem;
+}
