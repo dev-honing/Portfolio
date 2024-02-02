@@ -8,8 +8,8 @@ const Sites: React.FC = () => {
     <div className="sites">
       <a href="http://github.com/dev-honing" className="site" target="_blank" rel="noopener noreferrer">
         GitHub
-      </a>      {/* 나중에 링크 수정하기! */}
-      <a href="https://dev-honing.github.io/CRA-TEST/" className="site" target="_blank" rel="noopener noreferrer">Blog</a> 
+      </a>
+      <a href="https://bhn1997.com" className="site" target="_blank" rel="noopener noreferrer">Blog</a> 
     </div>
   );
 };
