@@ -25,10 +25,17 @@ const StackItem: React.FC<StackItemProps> = ({ stackName }) => (
 const Stacks: React.FC = () => {
   // 각 스택의 데이터
   const stacksData: StackItemProps[] = [
-    { stackName: "AWS" },
+    { stackName: "Git"},
+    { stackName: "GitHub"},
     { stackName: "HTML" },
     { stackName: "CSS" },
     { stackName: "JavaScript" },
+    { stackName: "TypeScript" },
+    { stackName: "Node"},
+    { stackName: "Express"},
+    { stackName: "React"},
+    { stackName: "Next"},
+    { stackName: "AWS" },
   ];
 
   return (
