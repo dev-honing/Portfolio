@@ -1,0 +1,12 @@
+/* src/Components/Footer/Footer.css */
+
+#footer {
+  width: 90vw;
+  height: auto;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
