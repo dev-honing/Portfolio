@@ -17,12 +17,18 @@
 #header {
   width: 100vw;
   height: 10vh;
+
+  position: fixed;
+  z-index: 100;
 }
 
 #container {
   height: 80vh;
+
+  padding-top: 10vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
@@ -32,9 +38,4 @@
 
 #comments {
   overflow-y: scroll;
-}
-
-button {
-  width: 7rem;
-  height: 3rem;
 }

@@ -8,6 +8,21 @@
   display: none;
 }
 
+button {
+  width: 7rem;
+  height: 3rem;  
+  
+  position: absolute;
+  top: 10%;
+  right: 0%;
+  
+}
+
 .growth.active {
-  display: block;
+  width: 40vw;
+  height: auto;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
